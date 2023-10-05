@@ -1,0 +1,331 @@
+body{
+    font-family:Arial, Helvetica, sans-serif;
+    min-width: 900px;
+    max-width: 1550px;
+    margin-left: auto;
+	margin-right: auto;
+    
+}
+main{
+    width: 90%;
+    margin-left: auto;
+	margin-right: auto;
+    transition:    0.5s;
+  
+
+}
+#ett{
+    background-image: url("image/ett_1476.png");
+}
+#show{
+    background-image: url("image/show_1476.png");
+}
+#ex{
+    background-image: url("image/jeffbye.jpeg");
+
+}
+.rest{
+    background-image: url("image/rest2_1476.png");
+}
+#showOne{
+    background-image: url("image/dolls_1476.png");
+}
+#showTwo{
+    background-image: url("image/dancetwo_1476.png");
+}
+#showThree{
+    background-image: url("image/Carmina_1476.png");
+}
+#exhiOne{
+    background-image: url("image/crane5_1476.png");
+
+}
+#exhiTwo{
+    background-image: url("image/jeffbye.jpeg");
+}
+#exhiThree{
+    background-image: url("image/ny_1476.png");
+}
+
+
+.formatEtt{
+    
+    height: 300px;
+    width: 100%;
+    margin-left: auto;
+	margin-right: auto;
+    background-size: cover;
+	background-position:center;
+    opacity: 90%;
+    margin-bottom: 40px;
+
+}
+.formatEttTitel{
+    color: whitesmoke;
+    text-align: center;
+    padding: 150px 0;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    text-shadow: 2px 2px 8px black;
+    font-size: 200%
+}
+.book{
+    padding: 70px 0;
+}
+.formatTre{
+    height: 200px;
+   
+
+}
+.titelTre{
+    padding: 90px;
+}
+.wrapper{
+    display:inline-flex;
+    margin-top: 20px;
+    margin-bottom: 120px;
+    
+ 
+}
+
+.linkTitel{
+    color: whitesmoke;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    text-shadow: 2px 2px 5px black;
+    font-size: 150%;
+    position: absolute;
+    padding-left: 10px;    
+
+}
+ 
+.link{
+   margin: 0px 40px 40px 0;
+
+   
+}
+.link:last-child{
+    margin: 0px 0px 40px 0px;
+}
+
+.white{
+    font-size: 80%;
+    color: white;
+}
+.by{
+   
+    font-family: monospace;
+    letter-spacing: 2px;
+}
+.center{
+    text-align: center;
+
+}
+.grey{
+    color: rgb(107, 106, 106);
+    font-size: 90%;
+}
+.formatTwoTitle{
+    text-align: left;
+    font-size: 150%;
+    text-transform: uppercase;
+    margin-top: 100px;
+
+}
+.showwrapper{
+    display: flex;
+   
+}
+.textwrapper{
+    width: 45%;
+    padding-top: 5%;
+    margin-left: auto;
+	margin-right: auto;  
+ 
+}
+
+.ingress{
+    font-size: xx-large;
+    font-style: italic;
+    padding:  5%;
+
+}
+
+p{
+    letter-spacing: 1px;
+    line-height: 30px;
+   
+    
+}
+.single{
+    display: none;
+}
+.kontakt{
+    background-color: rgb(112, 111, 111);
+    min-width: 900px;
+    max-width: 1550px;
+    margin-left: auto;
+	margin-right: auto;
+    width: 90%;
+    height: 50px;
+}
+.contacts{
+    padding-top:10px;
+    padding-left: 20px;
+    padding-bottom: 10px;
+    text-align: center;
+    
+   
+}
+
+.nav{
+    height: 0px;
+    width: 100%;
+
+    position: fixed;
+    z-index: 1;
+    background-color: rgb(233, 227, 227);
+    top:0;
+    left:0;
+    overflow-x: hidden;
+    padding-top: 0px;
+    padding-left: 130px;
+    transition: 0.5s;
+  
+   
+}
+.nav .closed{
+    position: absolute;
+    right:200px;
+    font-size: 25px;
+    
+  
+   
+}
+.nav a{
+    padding: 30px 20px ;
+    text-decoration: none;
+    font-size: 20px;
+    color: rgb(46, 45, 45);
+    display: inline-block;
+    transition: 0.5s;
+    
+}
+
+
+.nav a:hover{
+    color: rgb(175, 4, 4);
+    font-size: 21px;
+    text-decoration: underline;
+}
+.nav .closed:hover{
+    color: rgb(175, 4, 4);
+    text-decoration: none;
+    font-size: 30px;
+    
+
+}
+
+
+#span{
+    font-size: 30px;
+    cursor: pointer;
+    margin-left: 5%;
+    margin-top: 10px
+   
+}
+
+nav{
+
+    height: 50px;
+}
+.text{
+    font-family: sans-serif;
+    font-weight: bold;
+}
+
+.kant{
+    margin-left: 0px;
+    margin-top: 0px;
+}
+@media screen and (max-width: 900px){
+
+main{
+    width: 95%;
+    height: 100%;
+    padding-bottom: 270px;
+
+}
+.formatEtt{
+    
+    height: 100px;
+
+}
+.formatEttTitel{
+    padding-top: 30px;
+
+}
+.wrapper{
+    
+    margin-top: 20px;
+    margin-bottom: 40px;
+    
+ 
+}
+
+
+.imgbox{
+    width: 33%;
+    height: 225px;
+}
+.img-pad{
+    width: 100%;
+}
+.textwrapper{
+    width: 65%;
+    padding-top: 5%;
+    padding-right: 5%;
+ 
+}
+.full{
+    display: none;
+}
+.single{
+    display: block;
+    width: 65%;
+    margin-left: auto;
+	margin-right: auto;
+    margin-top: 10% ;
+    font-size: 130%;    
+}
+
+.kant{
+    margin-left: 5%;
+}
+.fot{
+    position:fixed;
+    bottom: 0;
+}
+.formatTre{
+    height: 150px;
+   
+
+}
+.boktext{
+    margin-left: 40px;
+}
+
+}
+
+
+@media screen and (max-width: 600px){
+    .single{
+        width: 95%;
+        font-size: 150%;
+        letter-spacing: 1.5px;
+        line-height: 35px;
+
+    }
+
+  
+}
